@@ -1,31 +1,36 @@
 package controller;
 import model.*;
 
+import javax.swing.table.TableCellEditor;
+
 public class EnterpriseController {
-    public Personne[] Personnels = new Personne[7];
+    public Personne[] TabPersonnels = new Personne[7];
 
-    public String ajouterDirecteur(String nom, String prenom, float portefeuille){
-        Personnels[0]  = new Directeur(nom, prenom, portefeuille);
-        return "Directeur ajouter tableau";
+    public void ajouterDirecteur(){
+        TabPersonnels[0]  = new Directeur("Jean", "Boss",1520);
+
     }
-    public String ajouterPersonne(String nom, String prenom){
-        Personnels[1]  = new Contremaitre(nom, prenom,"Contremaitre");
-        Personnels[2]  = new Comptable(nom, prenom,"Comptable");
-        Personnels[3]  = new Macon(nom, prenom, "Macon");
-        Personnels[4]  = new MaconQualifie(nom, prenom, "MaconQualifie");
-        Personnels[5]  = new Manoeuvre(nom, prenom,"Manoeuvre");
-        Personnels[6]  = new Secretaire(nom, prenom, "Secrétaire");
-        return "Ok";
+    public void ajouterPersonne(){
+        TabPersonnels[1]  = new Contremaitre("Pol", "Mirabelle","Contremaitre");
+        TabPersonnels[2]  = new Comptable("Finance", "Michel","Comptable");
+        TabPersonnels[3]  = new Macon("Mur", "Jean", "Macon");
+        TabPersonnels[4]  = new MaconQualifie("Beaumur", "Albert", "MaconQualifie");
+        TabPersonnels[5]  = new Manoeuvre("Conduit", "Kevin","Manoeuvre");
+        TabPersonnels[6]  = new Secretaire("Ecrit", "Arnaud", "Secrétaire");
+
     }
 
-    public String listerPersonnel(){
-        String retMsg = "";
-        for (Personne pers: Personnels) {
-            if(pers != null) {
-                retMsg += pers.toString();
-            }
+    public void listerPersonnel(Personne[] personnels){
+        int i;
+        for(i=0;i<7;i++){
+            System.out.println(TabPersonnels[i].toString());
         }
-        return retMsg;
+
+        for(Personne personne : TabPersonnels)
+        {
+            System.out.println(personne.toString());
+        }
+
     }
 }
 
