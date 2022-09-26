@@ -12,12 +12,13 @@ public class Directeur extends Personne{
 
     @Override
     public String toString() {
-        return "Directeur{" +
-                "porteFeuille=" + porteFeuille +
-                ", nom='" + nom + '\'' +
-                ", prenom='" + prenom + '\'' +
-                ", profession='" + profession + '\'' +
-                '}';
+        return "Directeur =" +
+                " / nom: " + nom  +
+                " / prenom:  " + prenom +
+                " / profession: " + profession  +
+                " / porteFeuille: " + porteFeuille +
+                " / Travail: " + travail() +
+                " / Loisir: " + loisir();
     }
 
     public float getPorteFeuille() {
