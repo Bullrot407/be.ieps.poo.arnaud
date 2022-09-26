@@ -15,6 +15,7 @@ public abstract class Personne implements IPersonne {
                 '}';
     }
 
+
     public Personne(String nom, String prenom, String profession) {
         this.nom = nom;
         this.prenom = prenom;
@@ -44,11 +45,5 @@ public abstract class Personne implements IPersonne {
     public void setProfession(String profession) {
         this.profession = profession;
     }
-
-    @Override
-    public String travail(){
-        return "Je travail comme une personne";
-    }
-
 
 }

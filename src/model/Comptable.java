@@ -3,18 +3,11 @@ package model;
 public class Comptable extends Personne{
 
 
-    public Comptable(String nom, String prenom) {
-        super(nom, prenom, "model.Comptable");
+    public Comptable(String nom, String prenom, String profession) {
+        super(nom, prenom, "Comptable");
     }
 
-    @Override
-    public String toString() {
-        return "model.Comptable{" +
-                "nom='" + nom + '\'' +
-                ", prenom='" + prenom + '\'' +
-                ", profession='" + profession + '\'' +
-                '}';
-    }
+
 
     @Override
     public String travail() {
