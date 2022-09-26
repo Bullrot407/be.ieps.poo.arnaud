@@ -8,11 +8,12 @@ public abstract class Personne implements IPersonne {
 
     @Override
     public String toString() {
-        return "model.Personne{" +
-                "nom='" + nom + '\'' +
-                ", prenom='" + prenom + '\'' +
-                ", profession='" + profession + '\'' +
-                '}';
+        return profession +
+                " nom= " + nom +
+                " prenom= " + prenom  +
+                " " + travail() +
+                " " + loisir();
+
     }
 
 
