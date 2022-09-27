@@ -8,11 +8,11 @@ public abstract class Personne implements IPersonne {
 
     @Override
     public String toString() {
-        return profession +
-                " nom= " + nom +
-                " prenom= " + prenom  +
-                " " + travail() +
-                " " + loisir();
+        return "PROFESSION: " + profession +
+                " / NOM: " + nom +
+                " / PRENOM: " + prenom  +
+                " / TRAVAIL: " + travail() +
+                " / LOISIR: " + loisir();
 
     }
 

@@ -7,11 +7,11 @@ public class Secretaire extends Personne{
     }
     @Override
     public String travail() {
-        return null;
+        return "Je dois faire les tris des documents! " ;
     }
 
     @Override
     public String loisir() {
-        return null;
+        return "j'ecrit un roman!";
     }
 }
