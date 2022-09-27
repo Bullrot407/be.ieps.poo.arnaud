@@ -8,11 +8,11 @@ public class Manoeuvre extends Personne{
 
     @Override
     public String travail() {
-        return null;
+        return "Je pilote les grues " ;
     }
 
     @Override
     public String loisir() {
-        return null;
+        return "j'ai pas d'amis :'( !";
     }
 }

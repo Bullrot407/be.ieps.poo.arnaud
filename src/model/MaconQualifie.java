@@ -8,11 +8,11 @@ public class MaconQualifie extends Personne{
 
     @Override
     public String travail() {
-        return null;
+        return "je regarde le macon :) " ;
     }
 
     @Override
     public String loisir() {
-        return null;
+        return "j'aime jouer avec le macon aux Lego !";
     }
 }

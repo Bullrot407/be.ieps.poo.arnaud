@@ -8,11 +8,11 @@ public class Contremaitre extends Personne{
 
     @Override
     public String travail() {
-        return null;
+        return "Battre les Jedi!!! " ;
     }
 
     @Override
     public String loisir() {
-        return null;
+        return " Allez au cinéma !";
     }
 }
