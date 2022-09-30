@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="be.ieps.poo.arnaud:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/be_ieps_poo_arnaud_jar</output-path>
+    <root id="archive" name="be.ieps.poo.arnaud.jar">
+      <element id="module-output" name="be.ieps.poo.arnaud" />
+    </root>
+  </artifact>
+</component>
