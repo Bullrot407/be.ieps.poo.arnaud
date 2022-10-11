@@ -6,6 +6,10 @@ public class Manoeuvre extends Personne{
         super(nom, prenom, profession);
     }
 
+    public Manoeuvre() {
+
+    }
+
     @Override
     public String travail() {
         return "Je pilote les grues " ;

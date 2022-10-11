@@ -7,6 +7,9 @@ public class Comptable extends Personne{
         super(nom, prenom, "Comptable");
     }
 
+    public Comptable() {
+
+    }
 
 
     @Override

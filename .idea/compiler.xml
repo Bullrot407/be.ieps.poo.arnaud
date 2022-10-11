@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="be.ieps.poo.arnaud" />
+        <module name="be.ieps.poo.arnaud.entreprise" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="be.ieps.poo.arnaud" target="17" />
+      <module name="be.ieps.poo.arnaud.entreprise" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

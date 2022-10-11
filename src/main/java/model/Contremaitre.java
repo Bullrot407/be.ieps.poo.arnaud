@@ -6,6 +6,10 @@ public class Contremaitre extends Personne{
         super(nom, prenom, profession);
     }
 
+    public Contremaitre() {
+
+    }
+
     @Override
     public String travail() {
         return "Battre les Jedi!!! " ;

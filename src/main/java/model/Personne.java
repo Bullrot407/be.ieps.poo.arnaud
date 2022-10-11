@@ -6,6 +6,10 @@ public abstract class Personne implements IPersonne {
     public String prenom;
     public String profession;
 
+    public Personne() {
+
+    }
+
     @Override
     public String toString() {
         return "PROFESSION: " + profession +

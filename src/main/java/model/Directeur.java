@@ -10,6 +10,10 @@ public class Directeur extends Personne{
         this.porteFeuille = porteFeuille;
     }
 
+    public Directeur() {
+        super();
+    }
+
     @Override
     public String toString() {
         return "PROFESSION: " + profession  +

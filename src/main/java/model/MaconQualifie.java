@@ -6,6 +6,10 @@ public class MaconQualifie extends Personne{
         super(nom, prenom, profession);
     }
 
+    public MaconQualifie() {
+
+    }
+
     @Override
     public String travail() {
         return "je regarde le macon :) " ;

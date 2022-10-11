@@ -1,6 +1,7 @@
 package controller;
 
 import model.*;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -12,6 +13,41 @@ class EnterpriseControllerTest {
             void entrepriseControler(){
         entCont = new EnterpriseController();
     }
+
+
+
+
+
+    @BeforeAll
+    void testFactory(){
+
+        Factory factory = new Factory();
+        Personne[] tabPers = new Personne[7];
+
+        tabPers[0] = factory.getPersonne("Directeur");
+        tabPers[0].setPrenom("Jean");
+        tabPers[1] = factory.getPersonne("maçon");
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     @Test
